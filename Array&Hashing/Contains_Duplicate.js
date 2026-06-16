@@ -19,6 +19,11 @@ export class ArraysAndHashing {
       return charSArray.sort().join("") === chatTArray.sort().join("");
     }
   }
+  /**
+   * @param {string} s
+   * @return {boolean}
+   */
+  isValid(s) {}
 }
 
 const TestFunction = new ArraysAndHashing();
